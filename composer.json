@@ -1,0 +1,24 @@
+{
+    "name": "hallanchristian/notification",
+    "description": "This is library that uses composer os the basics for generating email notafications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hallan Christian",
+            "email": "hallancma@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "config":{
+        "vendor-dir":"lib_ext"
+    },
+    "autoload": {
+        "psr-4":{
+            "Notification\\":"_app"
+        }
+    }
+}
